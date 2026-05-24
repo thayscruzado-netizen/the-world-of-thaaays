@@ -1,7 +1,7 @@
 import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 interface Props {
-  data: Array<{ t: number; [k: string]: number }>;
+  data: Array<Record<string, number>>;
   series: { key: string; color: string; label: string }[];
 }
 
